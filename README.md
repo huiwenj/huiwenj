@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=1976D2&center=true&vCenter=true&lines=%3CHello+World%2C+Zoey+here!%2F%3E)
+
 Hi, I'm Zoey Jia – a graduate from the University of Southern California and current M.S. Computer Science student at the University of Pennsylvania. I’m passionate about solving complex problems through full-stack development and cloud computing.
 
 Here's a quick snapshot of what I'm currently working on: 
