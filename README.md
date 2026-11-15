@@ -1,19 +1,28 @@
+# Zoey (Huiwen) Jia
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=poppins&pause=1000&color=1976D2&center=false&vCenter=true&lines=%3CHello+World%2C+Zoey+here!%2F%3E)
+I build AI agent products and the safety layer around them: authorization, guardrails, and audit.
 
-Hi, I'm Zoey Jia – a `M.S. Computer Science` student at the University of Pennsylvania. I've got `1+` year full-stack developing experience and practice.
+- **Now:** software engineer at Amazon (Ring), working on authorization and API gateways.
+- **Before:** founding engineer at AMA Interview, an AI mock-interview platform with 25,000+ users; product engineering intern at Character.AI.
+- **School:** M.S. in Computer Science, University of Pennsylvania.
 
-When I'm not deep into coding or solving tech challenges, you'll find me exploring new places, experimenting with different recipes in the kitchen, or enjoying a good book. I love learning about new cultures and staying curious about the world! ;)
+My site is a storybook, and it has the longer version: **[huiwenj.com](https://huiwenj.com)**
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=huiwenj&layout=compact"/>
+## What I am working on
 
-<hr>
+| Project | What it is | Where it stands |
+| :-- | :-- | :-- |
+| **Rubber Duck Workspace** | A harness that runs many AI coding agents in parallel. Every agent action passes a fail-closed guard and lands in an audit log. | Write-up on [huiwenj.com](https://huiwenj.com) |
+| **agent-guard-eval** | A benchmark that measures how well a permission guard holds when a coding agent is fed prompt injections, and what the guard costs in finished tasks. Built on Inspect. | Starting now |
+| **mock-interviewer** | A system-design mock interviewer with staged conversations, versioned prompts, and an eval pipeline that runs on every prompt change. | Next |
+| **Scratch & Ruin** | A scratch-off roguelike, built by directing a team of AI agents and then testing their work. | Steam release planned for early 2027 |
 
-## Tech Stack
-<div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="54" height="54" /></div><div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="54" height="54" /></div><div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="54" height="54" /><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="54" height="54" /></div>
+## What I care about
 
-- **Front-end**: React.js, Vue.js, Angular.js, HTML, CSS, JavaScript
-- **Back-end**: Python, Java, Go, Node.js,  Flask, SpringBoot, Express.js, RESTful API & JSON
-- **Database**: MySQL, PostgreSQL, MongoDB, Redis
-- **Dev Tool**: IDEA, Maven, VSCode, Git, Jira, Postman
-- **Deployment**: Linux, AWS, Docker, CI/CD, Nginx 
+- An agent should be able to propose anything and be allowed to do very little. The rule has to live outside the model.
+- A guard is not done until someone has tried to walk around it and written down what happened.
+- A number in a write-up should be one I can measure again.
+
+## Tools I reach for
+
+Python, Java, Rust, TypeScript · AWS (Lambda, DynamoDB, SQS, EventBridge) · FastAPI, React · OAuth 2.0, JWT, RBAC · Claude Code, LLM APIs, multi-agent workflows
